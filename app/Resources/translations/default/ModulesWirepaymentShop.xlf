@@ -2,6 +2,36 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="modules/ps_wirepayment/views/templates/hook/payment.tpl" source-language="en-US" target-language="en" datatype="plaintext">
     <body>
+      <trans-unit id="5e1695822fc5af98f6b749ea3cbc9b43">
+        <source>Dear</source>
+        <target>Dear</target>
+        <note>Context:
+File: modules/ps_wirepayment/views/templates/hook/payment.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="5e1695822fc5af98f6b749ea3cbc9b47">
+        <source>Thank you for your order no</source>
+        <target>Thank you for your order no</target>
+        <note>Context:
+File: modules/ps_wirepayment/views/templates/hook/payment.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="5e1695822fc5af98f6b749ea3cbc9b48">
+        <source>With You in our Manager will contact you soon to confirm your order</source>
+        <target>With You in our Manager will contact you soon to confirm your order</target>
+        <note>Context:
+File: modules/ps_wirepayment/views/templates/hook/payment.tpl:29</note>
+      </trans-unit>
+      <trans-unit id="5e1695822fc5af98f6b749ea3cbc9b49">
+        <source>If you it seems that we have lost Your order, call us at 88001234567 or write to zakaz@test</source>
+        <target>If you it seems that we have lost Your order, call us at 88001234567 or write to zakaz@test</target>
+        <note>Context:
+File: modules/ps_wirepayment/views/templates/hook/payment.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="5e1695822fc5af98f6b749ea3cbc9b11">
+        <source>Be sure to specify the order in the subject line this is so that we can help you faster</source>
+        <target>Be sure to specify the order in the subject line this is so that we can help you faster</target>
+        <note>Context:
+File: modules/ps_wirepayment/views/templates/hook/payment.tpl:30</note>
+      </trans-unit> 
       <trans-unit id="5e1695822fc5af98f6b749ea3cbc9b4c">
         <source>Pay by bank wire</source>
         <target>Pay by bank wire</target>

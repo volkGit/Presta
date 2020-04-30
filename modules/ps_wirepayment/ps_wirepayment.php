@@ -235,6 +235,7 @@ class Ps_Wirepayment extends PaymentModule
                 $bankwireAddress = '___________';
             }
 
+
             $this->smarty->assign(array(
                 'shop_name' => $this->context->shop->name,
                 'total' => Tools::displayPrice(
@@ -242,12 +243,11 @@ class Ps_Wirepayment extends PaymentModule
                     new Currency($params['order']->id_currency),
                     false
                 ),
-                'bankwireDetails' => $bankwireDetails,
-                'bankwireAddress' => $bankwireAddress,
-                'bankwireOwner' => $bankwireOwner,
+                'firstname' => $params['cookie']->customer_firstname,
+                'lastname' => $params['cookie']->customer_lastname,
+                'order_id' => $params['order']->id_cart,
                 'status' => 'ok',
                 'reference' => $params['order']->reference,
-                'contact_url' => $this->context->link->getPageLink('contact', true)
             ));
         } else {
             $this->smarty->assign(
